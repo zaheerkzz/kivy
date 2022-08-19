@@ -117,3 +117,18 @@ class MainApp(MDApp):
 
 MainApp().run() 
 
+###
+
+requirements=python3,kivy==2.0.0,kivymd==0.104.2,numpy,pillow,kivy_garden.mapview,openssl,requests,charset_normalizer,chardet,idna, urllib3,certifi
+https://github.com/kivy-garden/mapview/issues/53
+
+buildozer:
+buildozer android debug deploy run
+buildozer android deploy run
+
+buildozer android debug deploy run logcat
+
+https://buildozer.readthedocs.io/en/latest/quickstart.html
+
+
+
